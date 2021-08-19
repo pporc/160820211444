@@ -1,0 +1,18 @@
+body {
+  margin: 0;
+  overflow-x: hidden;
+}
+
+* {
+  font-family: Arial;
+  color: #333333;
+}
+
+.wrapper {
+  display: block;
+  max-width: 720px;
+  min-width: 360px;
+  background-color: #ffffff;
+  margin: auto;
+}
+

@@ -1,0 +1,38 @@
+.createCommentWrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #f2f2f2;
+  padding: 20px 2%;
+
+  textarea {
+    border: 1px solid #000000;
+    border-radius: 1px;
+    height: 65px;
+    resize: none;
+    width: 100%;
+    max-width: 690px;
+    margin: 0 2%;
+  }
+
+  .boxsizingBorder {
+    -webkit-box-sizing: border-box;
+       -moz-box-sizing: border-box;
+            box-sizing: border-box;
+  }
+
+  input {
+    background: #fdd639;
+    border-radius: 23px;
+    border: none;
+    height: 43px;
+    width: 281px;
+    font-family: PT Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 21px;
+    cursor: pointer;
+    margin: 25px auto 15px auto;
+  }
+}
